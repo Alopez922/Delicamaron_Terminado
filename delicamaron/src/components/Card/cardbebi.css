@@ -1,0 +1,51 @@
+.card-bebicontainer {
+    width: 100%;
+    height: auto;
+    border:solid rgb(202, 202, 202);
+    margin-bottom: 6%;
+    font-family: 'Itim', cursive;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 5px rgb(134, 3, 3), 0 -6px 5px rgb(134, 3, 3);
+
+    backdrop-filter: none;
+    background-color: rgba(8, 8, 8, 0.719);
+  }
+
+  .Card-bebiname{
+    padding:10px;
+      font-size: medium;
+      background-color: rgb(61, 3, 3);
+      color: rgb(255, 255, 255);
+      border-radius: 20px;
+
+  }
+
+  .imageContainer{
+      position: relative;
+      width: 100%;
+  }
+  
+  .imageContainer img{
+      width: 250px;
+      height: 190px;
+      position: relative;
+      border-radius: 20px;
+  }
+  
+  .imageRating{
+      border-radius: 10px 0 0 0;
+      position: absolute;
+      bottom: 4px;
+      right: 5px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #ddda0b;
+      background-color: rgba(36, 35, 35, 0.9);
+      padding: 0 5px;
+      
+  }
+  
+
+  
+

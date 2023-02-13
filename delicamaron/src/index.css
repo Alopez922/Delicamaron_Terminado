@@ -1,0 +1,16 @@
+body {
+  /* background-image: url("https://img.freepik.com/vector-premium/fondo-mariscos-patrones-fisuras-camarones_389505-200.jpg"); */
+  /* background-image: url("https://img.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg?w=2000"); */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Itim', cursive;
+
+}
+
+code {
+  font-family: 'Itim', cursive;
+  font-family: 'Lato', sans-serif;
+}
+
+

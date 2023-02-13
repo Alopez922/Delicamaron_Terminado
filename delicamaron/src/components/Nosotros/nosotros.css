@@ -1,0 +1,122 @@
+.pelicula{
+  margin-top: 30px;
+}
+
+.Nosotros-Container{
+    background: url("https://media.istockphoto.com/id/1352152504/es/vector/papel-negro-oscuro-abstracto-fondo-geom%C3%A9trico-cortado-fondo-futurista-moderno-se-puede-usar.jpg?s=612x612&w=0&k=20&c=WcJQBCdFP2jUSRtvxJcnuwa5PO3OjGJcvLM6Tvkox7Q=");
+
+}
+
+.mission-section {
+    text-align: center;
+  }
+  
+  .mission-title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: yellow;
+  }
+  
+  .mission-content {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .mission-video {
+    flex: 1;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .mission-description {
+    flex: 2;
+    text-align: justify;
+    font-family: 'Itim', cursive;
+    color: yellow
+
+    
+  }
+
+
+  .vision-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vision-title {
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Itim', cursive;
+    color: yellow
+  }
+  
+  .vision-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .vision-image {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+  }
+
+  .vision-image img{
+    border-radius: 20px;
+
+  }
+  
+  .vision-description {
+    font-size: 18px;
+    text-align: justify;
+    width: 50%;
+    margin-right: 15px;
+    font-family: 'Itim', cursive;
+    color: yellow
+  }
+  
+  @media (max-width: 768px) {
+    .vision-title {
+      font-size: 24px;
+    }
+    
+    .vision-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .vision-image {
+      width: 200px;
+      height: 200px;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .vision-description {
+      width: 100%;
+      text-align: justify;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mission-content {
+      flex-direction: column;
+    }
+  
+    .mission-video {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }

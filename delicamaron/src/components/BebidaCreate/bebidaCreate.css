@@ -1,0 +1,49 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+  }
+  
+  .fondoCreate {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-comida-natural-dibujado-mano_52683-21402.jpg?w=1380&t=st=1675525646~exp=1675526246~hmac=c20cca3aba829cc64b3950814708c649d18818f1648c1db539a033d8559f4fa6");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+ 
+ 
+
+  input[type="text"],
+  input[type="number"],
+  input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      outline: none;
+    }
+  
+  
+
+  
+    @media (max-width: 500px) {
+        .fondoCreate {
+          width: 95%;
+        }
+      }

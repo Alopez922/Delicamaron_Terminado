@@ -1,0 +1,86 @@
+.Bebida-Container{
+    width: 100%;
+    height: 100%;
+    -webkit-backdrop-blur: 10px;
+     backdrop-filter: 10px;
+     font-family: 'Itim', cursive;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     background: url("https://media.istockphoto.com/id/1352152504/es/vector/papel-negro-oscuro-abstracto-fondo-geom%C3%A9trico-cortado-fondo-futurista-moderno-se-puede-usar.jpg?s=612x612&w=0&k=20&c=WcJQBCdFP2jUSRtvxJcnuwa5PO3OjGJcvLM6Tvkox7Q=");
+    }
+
+
+
+.positions {
+    display: grid;
+    justify-items:center;
+    grid-template-columns: repeat(3, 2fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: sticky;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+.bebida-text{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    border-bottom: solid black;
+    border-top: solid black;
+    justify-content: center;
+    background: url("https://img.freepik.com/foto-gratis/papel-sobre-fondo-marco-fuego_1409-1355.jpg");
+    /* box-shadow: 0 7px 7px rgb(190, 182, 211) */
+    box-shadow: 0 7px 7px rgb(190, 182, 211), 0 -7px 7px rgb(190, 182, 211);
+
+}
+
+.bebida-text h1{
+    /* color:rgb(241, 239, 239); */
+    color: rgb(231, 255, 14);
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    font-size: xx-large;
+    padding: 40px;
+    text-shadow: 2px 2px rgb(183, 230, 13);
+
+}
+
+/* .paginado{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+@media (max-width:700px ){
+    .Home-Container{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    
+    .positions {
+        display: grid;
+        justify-items:center;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        position: sticky;
+        margin-top: -50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-bottom: 10%;
+        padding-bottom: 14.9%; 
+        
+        
+    }
+
+    .paginado-home{
+        margin-top: 70px;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+}

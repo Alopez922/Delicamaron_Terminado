@@ -1,0 +1,31 @@
+.nav-container{
+    justify-content: center;
+    align-items: center;
+    background: url("https://img.freepik.com/foto-gratis/papel-sobre-fondo-marco-fuego_1409-1355.jpg");
+    box-shadow: 0 3px 5px rgb(190, 182, 211);
+    font-family: 'Itim', cursive;
+
+    
+}
+
+.custom-toggle {
+    background-color: yellow !important;
+  }
+
+.logo-img{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.nav-container .nav-link, .nav-container .titulo-nav {
+    color: rgb(231, 255, 14);
+}
+
+.nav-container .nav-link svg {
+    fill: rgb(231, 255, 14);
+}
+
+.strong-text{
+    letter-spacing: 4px;
+}
+

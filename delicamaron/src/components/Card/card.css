@@ -1,0 +1,91 @@
+.card-container {
+    width: 100%;
+    height: auto;
+    /* border: solid rgb(209, 216, 197); */
+    border:solid rgb(211, 214, 176);
+    margin-bottom: 6%;
+    font-family: 'Itim', cursive;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgb(190, 182, 211);
+    backdrop-filter: none;
+    /* background: url("https://img.freepik.com/vector-gratis/fondo-comida-natural-dibujado-mano_52683-21402.jpg?w=740&t=st=1675872642~exp=1675873242~hmac=ba2ce1b78ed01ac58f08842938a903086b9ba7c6f5d3b6572b81b26570a2c149"); */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(247, 193, 45, 0.281);
+
+  }
+  
+  .Card-name{
+    padding:10px;
+      font-size: medium;
+      background-color: rgba(173, 205, 235, 0.3);
+      /* color: rgb(235, 231, 231); */
+      color: rgb(231, 255, 14);
+      border-radius: 20px;
+
+  }
+
+  .imageContainer{
+      position: relative;
+      width: 100%;
+  }
+  
+  .imageContainer img{
+      width: 250px;
+      height: 190px;
+      position: relative;
+      border-radius: 20px;
+  }
+  
+  
+  
+  h4 {
+      display: block;
+      font-size: 1em;
+      margin-block-start: 1.67em;
+      margin-block-end: 1.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  
+  .imageRating{
+      border-radius: 10px 0 0 0;
+      position: absolute;
+      bottom: 4px;
+      right: 5px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #ddda0b;
+      background-color: rgba(36, 35, 35, 0.9);
+      padding: 0 5px;
+      
+  }
+  
+  .card-descripcion {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size:large;
+    width: 250px;
+    height: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    color: rgb(216, 216, 208);
+
+
+  }
+
+  .card-descripcion.expanded {
+    height: auto;
+  }
+
+
+
+
