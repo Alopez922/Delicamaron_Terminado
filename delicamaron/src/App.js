@@ -7,7 +7,7 @@ import Bebidas from './components/Bebidas/Bebidas';
 import Nosotros from './components/Nosotros/Nosotros';
 import BebidaCreate from './components/BebidaCreate/BebidaCreate';
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://delicamaronterminado-production.up.railway.app/";
 
 
 function App() {
